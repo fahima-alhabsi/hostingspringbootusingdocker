@@ -14,7 +14,7 @@ public class controller {
 
     List<String> m = new ArrayList<>();
 
-    @GetMapping(path="/api")
+    @GetMagitpping(path="/api")
 public List<String> showList(){
 
     m.add("malak");

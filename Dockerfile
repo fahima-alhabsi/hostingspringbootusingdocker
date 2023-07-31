@@ -4,9 +4,9 @@ WORKDIR /app
 
 RUN apk add --no-cache maven
 
-COPY . /app
+COPY . .
 
-RUN mvn clean package
+RUN mvn clean install
 
 EXPOSE 8080
 
